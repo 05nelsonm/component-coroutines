@@ -35,17 +35,19 @@ kmpConfiguration {
                 testSourceSet = null,
             ),
 
-            KmpTarget.NonJvm.Native.Unix.Darwin.Ios.All.DEFAULT,
+            KmpTarget.NonJvm.Native.Unix.Darwin.Ios.All(enableSimulator = {}),
             KmpTarget.NonJvm.Native.Unix.Darwin.Macos.X64.DEFAULT,
             KmpTarget.NonJvm.Native.Unix.Darwin.Macos.Arm64.DEFAULT,
-            KmpTarget.NonJvm.Native.Unix.Darwin.Tvos.All.DEFAULT,
-            KmpTarget.NonJvm.Native.Unix.Darwin.Watchos.All.DEFAULT,
+            KmpTarget.NonJvm.Native.Unix.Darwin.Tvos.All(enableSimulator = {}),
+            KmpTarget.NonJvm.Native.Unix.Darwin.Watchos.All(enableSimulator = {}),
+
             KmpTarget.NonJvm.Native.Unix.Linux.X64.DEFAULT,
+
             KmpTarget.NonJvm.Native.Mingw.X64.DEFAULT,
         ),
         commonMainSourceSet = {
             dependencies {
-                implementation(deps.kotlin.coroutines.core)
+                implementation(deps.kotlin.coroutines.core.core)
             }
         },
     )
