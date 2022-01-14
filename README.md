@@ -20,6 +20,11 @@ dependencies {
 }
 ```
 
+### Kotlin Version Compatibility
+|  coroutines  |    kotlin    |  kotlinx-coroutines  |
+| :----------: | :----------: | :------------------: |
+|    1.0.0     |    1.5.31    |       1.5.2          |
+
 ### `CoroutineDispatchers` Example (Using Android ViewModel + Hilt)
 ```kotlin
 @Module
