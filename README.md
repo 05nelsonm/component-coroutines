@@ -8,7 +8,7 @@ A full list of `kotlin-components` projects can be found [HERE](https://kotlin-c
 // build.gradle.kts
 
 dependencies {
-    implementation("io.matthewnelson.kotlin-components:coroutines:1.0.0")
+    implementation("io.matthewnelson.kotlin-components:coroutines:1.1.0")
 }
 ```
 
@@ -16,14 +16,18 @@ dependencies {
 // build.gradle
 
 dependencies {
-    implementation "io.matthewnelson.kotlin-components:coroutines:1.0.0"
+    implementation "io.matthewnelson.kotlin-components:coroutines:1.1.0"
 }
 ```
 
 ### Kotlin Version Compatibility
+
+**Note:** as of `1.1.0`, the experimental memory model for KotlinNative is enabled.
+
 |  coroutines  |    kotlin    |  kotlinx-coroutines  |
 | :----------: | :----------: | :------------------: |
 |    1.0.0     |    1.5.31    |       1.5.2          |
+|    1.1.0     |    1.6.10    |       1.6.0          |
 
 ### `CoroutineDispatchers` Example (Using Android ViewModel + Hilt)
 ```kotlin
