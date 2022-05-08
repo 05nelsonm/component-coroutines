@@ -1,6 +1,6 @@
 # component-coroutines
-[![Kotlin](https://img.shields.io/badge/kotlin-1.6.10-blue.svg?logo=kotlin)](http://kotlinlang.org)
-[![Kotlin Coroutines](https://img.shields.io/badge/coroutines-1.6.0-blue.svg?logo=kotlin)](https://github.com/Kotlin/kotlinx.coroutines)
+[![Kotlin](https://img.shields.io/badge/kotlin-1.6.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin Coroutines](https://img.shields.io/badge/coroutines-1.6.1-blue.svg?logo=kotlin)](https://github.com/Kotlin/kotlinx.coroutines)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)  
 
 ![android](https://camo.githubusercontent.com/b1d9ad56ab51c4ad1417e9a5ad2a8fe63bcc4755e584ec7defef83755c23f923/687474703a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d616e64726f69642d3645444238442e7376673f7374796c653d666c6174)
@@ -26,7 +26,7 @@ A full list of `kotlin-components` projects can be found [HERE](https://kotlin-c
 // build.gradle.kts
 
 dependencies {
-    implementation("io.matthewnelson.kotlin-components:coroutines:1.1.0")
+    implementation("io.matthewnelson.kotlin-components:coroutines:1.1.1")
 }
 ```
 
@@ -34,7 +34,7 @@ dependencies {
 // build.gradle
 
 dependencies {
-    implementation "io.matthewnelson.kotlin-components:coroutines:1.1.0"
+    implementation "io.matthewnelson.kotlin-components:coroutines:1.1.1"
 }
 ```
 
@@ -46,6 +46,7 @@ dependencies {
 | :----------: | :----------: | :------------------: |
 |    1.0.0     |    1.5.31    |       1.5.2          |
 |    1.1.0     |    1.6.10    |       1.6.0          |
+|    1.1.1     |    1.6.21    |       1.6.1          |
 
 ### `CoroutineDispatchers` Example (Using Android ViewModel + Hilt)
 ```kotlin
