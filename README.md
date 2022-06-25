@@ -27,7 +27,7 @@ A full list of `kotlin-components` projects can be found [HERE](https://kotlin-c
 // build.gradle.kts
 
 dependencies {
-    implementation("io.matthewnelson.kotlin-components:coroutines:1.1.2")
+    implementation("io.matthewnelson.kotlin-components:coroutines:1.1.3")
 }
 ```
 
@@ -35,7 +35,7 @@ dependencies {
 // build.gradle
 
 dependencies {
-    implementation "io.matthewnelson.kotlin-components:coroutines:1.1.2"
+    implementation "io.matthewnelson.kotlin-components:coroutines:1.1.3"
 }
 ```
 
@@ -45,10 +45,11 @@ dependencies {
 
 |  coroutines  |    kotlin    |  kotlinx-coroutines  |
 | :----------: | :----------: | :------------------: |
-|    1.0.0     |    1.5.31    |       1.5.2          |
-|    1.1.0     |    1.6.10    |       1.6.0          |
-|    1.1.1     |    1.6.21    |       1.6.1          |
+|    1.1.3     |    1.6.21    |       1.6.3          |
 |    1.1.2     |    1.6.21    |       1.6.1          |
+|    1.1.1     |    1.6.21    |       1.6.1          |
+|    1.1.0     |    1.6.10    |       1.6.0          |
+|    1.0.0     |    1.5.31    |       1.5.2          |
 
 ### `CoroutineDispatchers` Example (Using Android ViewModel + Hilt)
 ```kotlin
