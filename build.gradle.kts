@@ -1,3 +1,5 @@
+import io.matthewnelson.kotlin.components.kmp.util.configureYarn
+
 /*
  * Copyright (c) 2021 Matthew Nelson
  *
@@ -40,6 +42,12 @@ allprojects {
         gradlePluginPortal()
     }
 
+}
+
+configureYarn { rootYarn, _ ->
+    rootYarn.apply {
+        lockFileDirectory = project.rootDir.resolve(".kotlin-js-store")
+    }
 }
 
 plugins {
